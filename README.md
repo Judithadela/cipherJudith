@@ -36,6 +36,18 @@ algo que en tiempos basados era importante para mandar información importante.
 Relacionarse más con la criptografía.
 * cómo crees que el producto que estás creando les está resolviendo sus
   problemas:Yo considero que en estos tiempos la relación el niño y la tecnología es muy estrecha y si aprendieron este cifrado cesar y quisieran desarrollarlo estarían en buenas practicas con todo lo relacionado a criptografía y el medio digital.
+### UI
+
+La interfaz debe permitir al usuario:
+
+* elegir un `offset` indicando cuántas posiciones queremos que el cifrado
+  desplace cada caracter: El desplazamiento que el usuario elija pero restringido hasta el numero 33.
+* insertar un mensaje (texto) que queremos cifrar
+Por ejemplo escribe en el cifrado: "mama te quiero" CON DESPLAZAMIENTO "3",pues
+ ver el resultado del mensaje cifrado será : "pdpd wh txlhur"
+* insertar un mensaje (texto) a descifrar:"pdpd wh txlhur" seguimos con el desplazamiento "3" y 
+ ver el resultado del mensaje descifrado: "mama te quiero".
+
 
 
 
