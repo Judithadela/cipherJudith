@@ -17,13 +17,11 @@ window.cipher = {
 },
 
      decode: (offset,string) => {
-         
+
         let res= (offset % 26);
         offset=(26 - res ) % 26;  
 
         let descifrado = "";
-         
-        
      for(let i = 0; i < string.length; i++) {
         let caracter = string.charCodeAt(i);
         if(caracter >= 97 && caracter <= 122) {
