@@ -17,20 +17,24 @@ window.cipher = {
 },
 
      decode: (offset,string) => {
+         
+        let res= (offset % 26);
+        offset=(26 - res ) % 26;  
 
-        let resultado = "";
-        offset=(26 - offset)%26;   
+        let descifrado = "";
+         
+        
      for(let i = 0; i < string.length; i++) {
         let caracter = string.charCodeAt(i);
         if(caracter >= 97 && caracter <= 122) {
-            resultado += String.fromCharCode((caracter + 97 - offset) % 26 + 97);
+            descifrado += String.fromCharCode((caracter + 97 - offset) % 26 + 97);
         } else if(caracter >= 65 && caracter <= 90) {
-            resultado += String.fromCharCode((caracter + 65 - offset ) % 26 + 65);
+            descifrado += String.fromCharCode((caracter + 65 - offset ) % 26 + 65);
         } else {
-            resultado += string.charAt(i);
+            descifrado += string.charAt(i);
         }
     }
-    return resultado;
+    return descifrado;
 }
 
 };

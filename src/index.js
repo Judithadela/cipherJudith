@@ -14,7 +14,7 @@ function cifrar(){
 }
 function descifrar(){
 
-  string=document.getElementById("texto").value;
+  string=document.getElementById("texto2").value;
   document.getElementById("texto2").value=(cipher.decode(offset, string));
 }
 
