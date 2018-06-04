@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
+ <header>
+      <h1>😊 Cesar Cifrado 😊</h1>
+      <p>A pesar de ser uno de los métodos criptográficos más simples, el “cifrado de César” permitió a Julio César
+      proteger sus mensajes importantes de las miradas no autorizadas. Consiste en substituir cada letra del mensaje
+      por otra que se encuentre un número fijo de posiciones más adelante en el alfabeto</p>
+      <br>
+      <br>
+<form>
+	    <input  class="clase1" id="change" value="" placeholder= Numero de desplazar  style="width:300px;" />
+      <input class="button" id="buttonCode" type="button" value="CODE" />
+      <input class="button" id="buttonDecode" type="button" value="DECODE"  />
+      <input class="button" type="Reset" value="BORRAR">
+       <br>
+      <hr/>
+      <textarea  placeholder="Ingresar palabra a cifrar/descifrar" class="text" id="texto" style="width:40em" cols="35" rows="15"></textarea>
+      <textarea  placeholder="Ingresar palabra a cifrar/descifrar" class="text2" id="texto2" style="width:40em" cols="35" rows="15"></textarea>
+
+      <br>
+      <br>
+	  <br>
+    </form>
     <script src="index.js"></script>
+    <script src="cipher.js"></script>
   </body>
 </html>
