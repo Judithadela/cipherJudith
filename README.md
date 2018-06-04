@@ -31,7 +31,7 @@ Poder desarrollar la logica del cifrado y decifrado y aprender mas en ser analí
 * quiénes son los principales usuarios de producto
 Yo me base mi producto con un enfoque en lo educativo,mi producto es en relación con los niños y la criptografía,este último 
 desarrolla y mejora la capacidad psicomotriz y cerebral en ellos y también tener curiosidad en todo relación con la criptografía 
-algo que en tiempos basados era importante para mandar información importante.
+algo que en tiempos pasados era importante para mandar información relevante en secreto.
 * cuáles son los objetivos de estos usuarios en relación con el producto
 Relacionarse más con la criptografía.
 * cómo crees que el producto que estás creando les está resolviendo sus
