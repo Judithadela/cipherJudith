@@ -1,7 +1,7 @@
 # Cifrado César
 
-![alt text](http://url/to/Captura.PNG)
 
+![Screenshot](Captura.png)
 
 ## Preámbulo
 
